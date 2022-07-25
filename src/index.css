@@ -1,0 +1,13 @@
+*{
+  color:white
+}
+#root {
+  min-height: 100vh;
+  background-color: #1F2235;
+  color:white
+}
+
+.social:hover{
+  transform: scale(1.1);
+  transition: all 1s;
+}
