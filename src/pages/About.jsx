@@ -20,18 +20,18 @@ const About = () => {
             My Tools;
           </Typography>
           <Typography variant="body1" gutterBottom sx={{ color: 'white', fontSize: "1.3rem" }}>
-            ✅ React.js<br/>
-            ✅ JavaScript<br/>
-            ✅ HTML5<br/>
-            ✅ CSS3<br/>
-            ✅ Python<br/>
-            ✅ SASS<br/>
-            ✅ Bootstrap<br/>
-            ✅ MUI<br/>
-            ✅ SDLC & Agile<br/>
-            ✅ Git & GitHub<br/>
-            ✅ Linux<br/>
-            ✅ SQL
+            🟣 React.js<br/>
+            🟣 JavaScript<br/>
+            🟣 HTML5<br/>
+            🟣 CSS3<br/>
+            🟣 Python<br/>
+            🟣 SASS<br/>
+            🟣 Bootstrap<br/>
+            🟣 MUI<br/>
+            🟣 SDLC & Agile<br/>
+            🟣 Git & GitHub<br/>
+            🟣 Linux<br/>
+            🟣 SQL
           </Typography>
 
         </Box>

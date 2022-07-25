@@ -19,12 +19,13 @@ const Projects = () => {
   }
   useEffect(() => {
     getData();
+    // eslint-disable-next-line
   }, [])
 
   return (
     <div sx={{display:"flex", justifyContent:"center"}}>
       <CssBaseline />
-      {load ? <img src={gif} alt="loading.gif" style={{display:"block", margin:"auto"}}/> :
+      {load ? <img src={gif} alt="loading.gif" style={{display:"block", margin:"4rem auto",borderRadius:"50%"}}/> :
         <Grid container spacing={4} justifyContent="center" alignItems="center" maxWidth={1500} sx={{ margin: "auto" }}>
           {
             repoData?.map((repoInfo, i) => {

@@ -23,8 +23,8 @@ export default function Header() {
       <ThemeProvider theme={darkTheme}>
         <AppBar position="static" color="transparent">
           <Toolbar>
-            <img src={logo} alt="logo" width="50rem" onClick={()=>navigate("/")} style={{cursor:"pointer"}}/>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1, marginLeft: "2rem",cursor:"pointer",color:"#FF4A57" }} onClick={()=>navigate("/")}>
+            <img src={logo} alt="logo" width="50rem" onClick={()=>navigate("/")} style={{cursor:"pointer",borderRadius:"10px"}}/>
+            <Typography variant="h6" component="div" sx={{ flexGrow: 1, marginLeft: "2rem",cursor:"pointer",color:"#white" }} onClick={()=>navigate("/")}>
               Fatih
             </Typography>
             <Button color="inherit" onClick={()=>navigate("/")}>Home</Button>

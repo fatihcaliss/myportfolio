@@ -1,13 +1,19 @@
-*{
-  color:white
-}
 #root {
-  min-height: 100vh;
+  height: 100vh;
   background-color: #1F2235;
   color:white
 }
-
 .social:hover{
   transform: scale(1.1);
   transition: all 1s;
+}
+.detailButton{
+  color: white;
+}
+.detailButton:hover{
+  color: orangered;
+}
+
+.welcome{
+  color: orangered;
 }
