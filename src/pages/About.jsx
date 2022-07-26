@@ -8,7 +8,7 @@ const About = () => {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="md">
+      <Container maxWidth="sm">
         <Box sx={{ bgcolor: '#1F2235', height: '80vh', margin: "2rem" }} >
           <Typography variant="h2" component="div" gutterBottom sx={{ color: '#FF4A57' }}>
             Fatih Calis
