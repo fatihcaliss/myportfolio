@@ -13,15 +13,14 @@ const Projects = () => {
 
   const getData = async () => {
     const { data } = await axios.get(url);
-    console.log(data);
-    setRepoData(data);
+    console.log(data); 
+    setRepoData(data.filter((e) => e.fork === false));
     setLoad(false);
   }
   useEffect(() => {
     getData();
     // eslint-disable-next-line
   }, [])
-
   return (
     <div sx={{display:"flex", justifyContent:"center"}}>
       <CssBaseline />
