@@ -7,8 +7,8 @@ import { Button, CardActionArea, CardActions, Grid } from '@mui/material';
 const SingleRepo = ({ repoInfo }) => {
 
     return (
-        <Grid item >
-            <Card sx={{ width: 345, height: 360, bgcolor: "#282c44", display: "flex", flexDirection: "column", justifyContent: "space-around", color: "white" }}>
+        <Grid item className='deneme'>
+            <Card sx={{ width: 315, height: 320, bgcolor: "#282c44", display: "flex", flexDirection: "column", justifyContent: "space-around", color: "white" }}>
                 <CardActionArea sx={{ cursor: 'default' }}>
                     {/* <CardMedia
                         component="img"

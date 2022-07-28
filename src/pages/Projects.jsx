@@ -24,8 +24,8 @@ const Projects = () => {
   return (
     <div sx={{display:"flex", justifyContent:"center"}}>
       <CssBaseline />
-      {load ? <img src={gif} alt="loading.gif" style={{display:"block", margin:"4rem auto",borderRadius:"50%"}}/> :
-        <Grid container spacing={4} justifyContent="center" alignItems="center" maxWidth={1500} sx={{ margin: "auto" }}>
+      {load ? <img src={gif} alt="loading.gif" width="50%" style={{display:"block", margin:"4rem auto",borderRadius:"50%"}}/> :
+        <Grid container spacing={4} justifyContent="center" alignItems="center" maxWidth={"80%"} sx={{ margin: "auto" }}>
           {
             repoData?.map((repoInfo, i) => {
               return < SingleRepo key={i} repoInfo={repoInfo} />

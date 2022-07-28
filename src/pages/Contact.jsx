@@ -6,7 +6,7 @@ import EmailIcon from '@mui/icons-material/Email';
 
 const Contact = () => {
   return (
-    <div style={{display:"flex",gap:"4rem",justifyContent:"center",margin:"6rem"}}>
+    <div className="icons">
       <CssBaseline />
       <div ><a href="https://www.linkedin.com/in/fatihcaliss/" ><LinkedInIcon sx={{ fontSize: 100,color:"#FF4A57" }}className='social' color="action" /></a> </div>
       <div ><a href="https://github.com/fatihcaliss" ><GitHubIcon  sx={{ fontSize: 100,color:"#FF4A57" }}className='social' color="black" /></a></div>

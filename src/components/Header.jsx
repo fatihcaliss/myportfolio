@@ -19,12 +19,12 @@ export default function Header() {
     },
   });
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1 }} className="navbar">
       <ThemeProvider theme={darkTheme}>
         <AppBar position="static" color="transparent">
           <Toolbar>
             <img src={logo} alt="logo" width="50rem" onClick={()=>navigate("/")} style={{cursor:"pointer",borderRadius:"10px"}}/>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1, marginLeft: "2rem",cursor:"pointer",color:"#white" }} onClick={()=>navigate("/")}>
+            <Typography variant="h6" component="div" sx={{ flexGrow: 1, marginLeft: "2rem",cursor:"pointer",color:"#white" }} onClick={()=>navigate("/")} className="fatih">
               Fatih
             </Typography>
             <Button color="inherit" onClick={()=>navigate("/")}>Home</Button>
