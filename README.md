@@ -5,6 +5,6 @@
 
 
 ✅ This is my Portfolio page. <br/>
-✅ In project section, I used axios for get repo infos from github API<br/>
+✅ I used axios for get repo infos from github API<br/>
 ✅ I used <b>Material UI</b> for styling.<br/>
 ✅ I am working on this repo.<br/>
