@@ -1,5 +1,5 @@
 import * as React from 'react';
-import CssBaseline from '@mui/material/CssBaseline';
+// import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
@@ -14,10 +14,10 @@ const About = () => {
   theme = responsiveFontSizes(theme);
   return (
     <React.Fragment>
-      <CssBaseline />
+     
       <ThemeProvider theme={theme}>
-        <Container maxWidth="sm">
-          <Box sx={{ bgcolor: '#1F2235', height: '80vh', margin: "2rem" }} >
+        <Container maxWidth="sm" sx={{minHeight:"100vh"}}>
+          <Box sx={{ bgcolor: '#1F2235',margin:"2rem" }} >
             <Typography variant="h2" component="div" gutterBottom sx={{ color: '#FF4A57' }}>
               Fatih Calis
             </Typography>
@@ -27,7 +27,7 @@ const About = () => {
             <Typography variant="h4" gutterBottom sx={{ color: 'white' }}>
               My Tools;
             </Typography>
-            <Typography variant="body1" gutterBottom sx={{ color: 'white', fontSize: "1.3rem" }}>
+            <Typography variant="body1" gutterBottom sx={{ color: 'white', fontSize: "1.3rem"}} className="dene">
               🟣 React.js<br />
               🟣 JavaScript<br />
               🟣 HTML5<br />
@@ -41,9 +41,7 @@ const About = () => {
               🟣 Linux<br />
               🟣 SQL
             </Typography>
-
           </Box>
-
         </Container>
       </ThemeProvider>
     </React.Fragment>

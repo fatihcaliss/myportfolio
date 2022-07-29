@@ -5,6 +5,7 @@ import Projects from "../pages/Projects";
 import Home from '../pages/Home';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
+import ResumePage from '../pages/ResumePage';
 
 const Router = () => {
     return (
@@ -15,6 +16,7 @@ const Router = () => {
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/ResumePage" element={<ResumePage />} />
             </Routes>
 
         </BrowserRouter>
